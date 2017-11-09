@@ -1,0 +1,10 @@
+{
+  "name": "readability-demo",
+  "description": "A microservice of readability",
+  "repository": "https://github.com/kumabook/readability.git",
+  "keywords": ["readability"],
+  "website": "https://github.com/kumabook/readability-demo",
+  "buildpacks": [
+    { "url": "https://github.com/emk/heroku-buildpack-rust" }
+  ]
+}
