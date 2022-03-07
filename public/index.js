@@ -1,6 +1,7 @@
 $(function() {
   var $form = $('#form');
   var $content = $('#content');
+  var $md = $('#md');
   $form.on('submit', function(e) {
     e.preventDefault();
     $.ajax({
@@ -10,6 +11,7 @@ $(function() {
     }).done(function(res) {
       console.log(res);
       $content.html(res);
+      $content.md(res);
     });
   });
 });
